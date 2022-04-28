@@ -16,9 +16,9 @@ import java.util.List;
 import java.util.Scanner;
 
 public class YoutubeActivity  {
-    static final String GOOGLE_API_KEY = "AIzaSyD_8-XdxXIA3NKk1VPaSSM8iT9Re96tOkg";
-    String pewId ="UC-lHJZR3Gqxm24_Vd_AJ5Yw";
-    String tSeriesId = "UCq-Fj5jknLsUf-MWSy4_brA";
+    static final String GOOGLE_API_KEY = "";//replace with your own key
+    String pewId =""; //Replace with your own id
+    String tSeriesId = "";
 
     public static void main(String[] args) throws Exception {
         YouTube youtube = new YouTube.Builder(
